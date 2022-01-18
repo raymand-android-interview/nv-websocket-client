@@ -3512,7 +3512,7 @@ public class WebSocket
     /**
      * Get the input stream of the WebSocket connection.
      */
-    WebSocketInputStream getInput()
+    public WebSocketInputStream getInput()
     {
         return mInput;
     }
@@ -3521,7 +3521,7 @@ public class WebSocket
     /**
      * Get the output stream of the WebSocket connection.
      */
-    WebSocketOutputStream getOutput()
+    public WebSocketOutputStream getOutput()
     {
         return mOutput;
     }
