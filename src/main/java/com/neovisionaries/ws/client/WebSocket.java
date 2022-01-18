@@ -1111,8 +1111,8 @@ public class WebSocket
     private final PingSender mPingSender;
     private final PongSender mPongSender;
     private final Object mThreadsLock = new Object();
-    private WebSocketInputStream mInput;
-    private WebSocketOutputStream mOutput;
+    public WebSocketInputStream mInput;
+    public WebSocketOutputStream mOutput;
     private ReadingThread mReadingThread;
     private WritingThread mWritingThread;
     private Map<String, List<String>> mServerHeaders;
